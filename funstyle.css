@@ -8,9 +8,10 @@ opacity
 transform
 vertical-align
 */
-.blue:hover {
+/*.blue:hover {
   background-color: blue;
 }
+*/
 
 .ps {
   filter: blur(9px);
