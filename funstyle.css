@@ -15,6 +15,8 @@ p:hover {
 
 img {
   filter: blur;
+  height: 25%;
+  width: 25%;
 }
 
 img:hover {
