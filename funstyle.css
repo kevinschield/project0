@@ -14,11 +14,13 @@ p:hover {
 }
 
 img {
-  filter: blur;
+  filter: blur(9px);
+  grayscale: 75%;
   height: 25%;
   width: 25%;
 }
 
 img:hover {
   filter: none
+
 }
