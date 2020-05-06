@@ -12,3 +12,11 @@ vertical-align
 p:hover {
   background-color: blue;
 }
+
+img {
+  filter: blur;
+}
+
+img:hover {
+  filter: none
+}
