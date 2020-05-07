@@ -48,3 +48,23 @@ h5 {
 [font-weight] {
   font-family: monospace;
 }
+
+#myImg {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    object-position: 0% 0%;
+  }
+  25% {
+    object-position: 20% 0%;
+  }
+  100% {
+    object-position: 100% 100%;
+  }
+}
