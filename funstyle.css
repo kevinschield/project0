@@ -44,3 +44,7 @@ h5 {
 * {
   font-family: fantasy;
 }
+
+[font-weight] {
+  font-family: monospace;
+}
