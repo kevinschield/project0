@@ -36,3 +36,11 @@ vertical-align
   background-image: url("https://images.pexels.com/photos/3379934/pexels-photo-3379934.jpeg");
   color: blue;
 }
+
+h5 {
+  font-weight: bold
+}
+
+* {
+  font-family: fantasy;
+}
