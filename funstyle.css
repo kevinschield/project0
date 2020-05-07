@@ -50,21 +50,21 @@ h5 {
 }
 
 #myImg {
-  width: 200px;
+  width: 400px;
   height: 400px;
   object-fit: cover;
   object-position: 0% 0%;
-  animation: mymove 5s infinite;
+  animation: mymove 10s infinite;
 }
 
 @keyframes mymove {
   0% {
-    object-position: 0% 0%;
+    object-position: 100% 100%;
   }
   25% {
-    object-position: 20% 0%;
+    object-position: 150% 150%;
   }
   100% {
-    object-position: 100% 100%;
+    object-position: 200% 200%;
   }
 }
