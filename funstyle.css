@@ -27,7 +27,7 @@ vertical-align
 
 }
 
-body {
+.bg-image {
   background-image: url("different-shades-of-green-color-2078266.jpg");
-  /*background-color: #cccccc;*/
+  background-color: #cccccc;
 }
