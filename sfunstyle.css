@@ -12,10 +12,6 @@ vertical-align
   background-color: blue;
 }
 */
-
-$myOpacity: 0.5;
-$myColor: white;
-
 .ps {
   filter: blur(9px);
   filter: grayscale(75%);
@@ -26,14 +22,13 @@ $myColor: white;
 }
 
 .ps:hover {
-  filter: none
-
+  filter: none;
 }
 
 .bg-image {
   background-image: url("bokeh-of-lights-photography-1210276.jpg");
   background-color: #cccccc;
-  opacity: $myOpacity;
+  opacity: 0.5;
 }
 
 #videoedit {
@@ -43,12 +38,12 @@ $myColor: white;
 
 h5 {
   font-weight: bold;
-  color: $myColor;
+  color: white;
 }
 
 * {
   font-family: fantasy;
-  color: $myColor;
+  color: white;
 }
 
 [font-weight] {
@@ -74,14 +69,15 @@ h5 {
     object-position: 10% 10%;
   }
 }
-
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   #myImg {
-    width:800px;
+    width: 800px;
     height: 400px;
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px 18px #888888;
   }
 }
+
+/*# sourceMappingURL=sfunstyle.css.map */
