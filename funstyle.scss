@@ -100,8 +100,12 @@ div {
 p {
   color: black;
   text-align: center;
+  font-size: 48px;
 }
 
 a[href^="https"] {
   border-style:solid;
+}
+.spacing {
+  visibility: hidden;
 }
