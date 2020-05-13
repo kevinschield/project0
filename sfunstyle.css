@@ -59,13 +59,13 @@ h5 {
 
 @keyframes mymove {
   0% {
-    object-position: 0% 0%;
+    transform: scale(1, 1);
   }
-  25% {
-    object-position: 5% 5%;
+  50% {
+    transform: scale(1.5, 1.5);
   }
   100% {
-    object-position: 10% 10%;
+    transform: scale(2, 2);
   }
 }
 @media only screen and (min-width: 768px) {
@@ -86,11 +86,15 @@ div p {
 }
 div table {
   text-align: center;
-  color: lightgrey;
+  color: black;
 }
 
 p {
   color: black;
+}
+
+a[href^=https] {
+  border-style: solid;
 }
 
 /*# sourceMappingURL=sfunstyle.css.map */
