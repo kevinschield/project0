@@ -114,3 +114,9 @@ a[href^="https"] {
 .spacing {
   visibility: hidden;
 }
+
+h2 {
+  @extend .ps {
+    background-color: darkgrey;
+  }
+}
