@@ -82,7 +82,7 @@ div {
   font-size: 24px;
 }
 div p {
-  color: darkgrey;
+  color: darkblue;
 }
 div table {
   text-align: center;
@@ -91,6 +91,7 @@ div table {
 
 p {
   color: black;
+  text-align: center;
 }
 
 a[href^=https] {
