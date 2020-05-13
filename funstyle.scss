@@ -116,7 +116,6 @@ a[href^="https"] {
 }
 
 h2 {
-  @extend .ps {
+  @extend .ps;
     background-color: darkgrey;
   }
-}
